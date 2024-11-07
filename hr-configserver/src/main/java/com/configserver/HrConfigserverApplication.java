@@ -1,13 +1,13 @@
-package com.study.hreurekaserver;
+package com.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HrEurekaServer1Application {
+public class HrConfigserverApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HrEurekaServer1Application.class, args);
+		SpringApplication.run(HrConfigserverApplication.class, args);
 	}
 
 }

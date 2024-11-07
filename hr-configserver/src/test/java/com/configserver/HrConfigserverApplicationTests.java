@@ -1,10 +1,10 @@
-package com.study.hreurekaserver;
+package com.configserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HrEurekaServer1ApplicationTests {
+class HrConfigserverApplicationTests {
 
 	@Test
 	void contextLoads() {
