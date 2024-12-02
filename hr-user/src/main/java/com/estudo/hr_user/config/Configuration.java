@@ -10,4 +10,6 @@ public class Configuration {
     public BCryptPasswordEncoder passwordEncoder(){
         return new BCryptPasswordEncoder();
     }
+
+
 }
