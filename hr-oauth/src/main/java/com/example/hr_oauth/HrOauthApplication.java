@@ -14,4 +14,5 @@ public class HrOauthApplication {
 		SpringApplication.run(HrOauthApplication.class, args);
 	}
 
+
 }
