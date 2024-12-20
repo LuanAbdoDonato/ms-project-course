@@ -23,21 +23,12 @@ public class WorkerController {
 
 	private static org.jboss.logging.Logger log = LoggerFactory.logger(WorkerController.class);
 
-	//@Value("${test.config}")
-	//private String testConfig;
-
 	@Autowired
 	private Environment env;
 	
 	@Autowired
 	private WorkerRepository repository;
 
-	/*@GetMapping(value = "/configs")
-	public ResponseEntity<Void> getConfig(){
-		log.info("CONFIG: " + testConfig);
-		return ResponseEntity.noContent().build();
-	}
-*/
 	@GetMapping
 	public ResponseEntity<List<Worker>> findAll(){
 		List<Worker> workers = repository.findAll();
